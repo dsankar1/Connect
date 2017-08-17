@@ -14,7 +14,7 @@ public class Main {
 					null, JOptionPane.PLAIN_MESSAGE));
 			
 			Board board = new Board(height, width, connect);
-			Bot bot = new Bot(Board.BLACK, 7);
+			Bot bot = new Bot(Board.BLACK, 8);
 			Game game = new Game(board, bot);
 			new GUI(game);
 			game.start();
